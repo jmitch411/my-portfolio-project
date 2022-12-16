@@ -11,15 +11,37 @@ body {
 h1 {
     text-align: center;
     font-family: var(--primary-font);
-    font-size: 72px;
+    font-size: 80px;
 }
 
 h2 {
     text-align: center;
     font-family: var(--primary-font);
+    font-size: 25px;
+    margin: 20px;
+}
+
+.hero {
+    padding: 150px 0px;
 }
 
 .hero p {
     text-align: center;
     font-family: var(--secondary-font);
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 55px;
+}
+
+a {
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    background: #bf4468;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
