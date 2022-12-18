@@ -40,6 +40,10 @@ h2 {
     text-align: center;
 }
 
+.para-2 {
+    background: rgb(33, 33, 33);
+}
+
 .site-img {
     max-width: 80%;
 }
@@ -96,6 +100,15 @@ a {
         font-size: 15px;
         text-align: center;
     }
+    .para-2 {
+        text-align: center;
+        font-size: 13px;
+        margin: 0;
+    }
+    .about-me {
+        width: 50px;
+    }
+
 
 }
 
