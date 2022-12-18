@@ -85,6 +85,25 @@ a {
         margin-top: 25px;
         margin-bottom: 25px;
     }
+    .work-h1 {
+        margin-bottom: 25px;
+    }
+    .work-img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .weather-img {
+        margin-bottom: 25px;
+    }
+}
+
+.work-h1 {
+    font-family: var(--primary-font);
+}
+
+.work-top {
+    color: #bf4468;
+    font-weight: bold;
 }
 
 .about-h1 {
@@ -105,4 +124,16 @@ a {
 }
 .about-section {
     padding: 100px 20px;
+}
+
+.work-section {
+    padding: 25px;
+}
+
+.work-home-link {
+    margin-top: 50px;
+}
+
+.my-work-link {
+    margin-top: 25px;
 }
