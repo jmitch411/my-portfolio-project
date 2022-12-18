@@ -42,6 +42,7 @@ h2 {
 
 .para-2 {
     background: rgb(33, 33, 33);
+    padding: 10px 25px;
 }
 
 .site-img {
@@ -109,13 +110,10 @@ a {
         position: relative;
         left: -90px;
     }
-
-
 }
 
-.about-page {
-    border: 1px solid white;
-    border-radius: 4px;
+.home-link {
+    margin-top: 55px;
 }
 
 .about-me {
