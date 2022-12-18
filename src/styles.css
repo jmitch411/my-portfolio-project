@@ -137,3 +137,33 @@ a {
 .my-work-link {
     margin-top: 25px;
 }
+
+.contact-h1 {
+    letter-spacing: 10px;
+}
+
+.contact-email {
+    font-size: 13px;
+    padding: 15px;
+}
+
+.contact-linkedin {
+    font-size: 18px;
+}
+
+.contact-phone:hover {
+    cursor: default;
+    color: white;
+}
+
+.contact-content {
+    padding: 75px;
+}
+
+.contact-home-link {
+    margin-top: 100px;
+}
+
+.contact-work-link {
+    margin-top: 50px;
+}
