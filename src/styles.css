@@ -106,7 +106,8 @@ a {
         margin: 0;
     }
     .about-me {
-        width: 50px;
+        position: relative;
+        left: -90px;
     }
 
 
