@@ -46,7 +46,7 @@ h2 {
     max-width: 80%;
 }
 
-a {
+.link-style {
     display: block;
     margin: auto;
     width: 200px;
@@ -94,6 +94,10 @@ a {
     }
     .weather-img {
         margin-bottom: 25px;
+    }
+    nav a {
+        font-size: 13px;
+        margin: 0;
     }
 }
 
@@ -166,4 +170,31 @@ a {
 
 .contact-work-link {
     margin-top: 50px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bf4468;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-bar {
+    font-size: 17px;
+    font-weight: bold;
+    color: #bf4468;
 }
