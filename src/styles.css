@@ -238,3 +238,7 @@ footer {
 .social-links a:hover {
     color: #bf4468;
 }
+
+li .active a {
+    color: white;
+}
