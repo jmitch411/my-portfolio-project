@@ -198,3 +198,43 @@ nav a:hover {
     font-weight: bold;
     color: #bf4468;
 }
+
+footer {
+    background: #282323;
+    line-height: 2.5;
+}
+
+.footer-h4 {
+    font-size: 55px;
+    color: #bf4468
+}
+
+.footer-p {
+    font-size: 20px;
+    font-family: var(--secondary-font);
+}
+
+
+.social-links a {
+    text-align: center;
+    color:white;
+    margin: 0 20px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.footer-email-link {
+    color: #bf4468;
+    text-decoration: none;
+}
+
+.footer-email-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social-links a:hover {
+    color: #bf4468;
+}
