@@ -35,6 +35,8 @@ h2 {
     
 }
 
+
+
 .para {
     padding: 15px;
     text-align: center;
@@ -211,7 +213,6 @@ nav a:hover {
 .nav-bar {
     font-size: 17px;
     font-weight: bold;
-    color: #bf4468;
     font-family: var(--secondary-font);
 }
 
@@ -226,10 +227,11 @@ footer {
     font-size: 55px;
     color: white;
     font-family: var(--secondary-font);
+    letter-spacing: 10px;
 }
 
 .footer-p {
-    font-size: 20px;
+    font-size: 17px;
     font-family: var(--secondary-font);
     color: white;
 }
@@ -246,16 +248,15 @@ footer {
 }
 
 .footer-email-link {
-    color: white;
+    color: #0D6EFD;
     text-decoration: none;
 }
 
 .footer-email-link:hover {
-    color: #0D6EFD;
+    color: white;
     text-decoration: underline;
 }
 
 .social-links a:hover {
     color: #0D6EFD;
 }
-
