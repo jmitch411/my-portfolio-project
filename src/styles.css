@@ -4,8 +4,8 @@
 }
 
 body {
-    color: black;
-    background: #e1dfdd;
+    color: white;
+    background: black;
     margin: 25px 30px;
 }
 
@@ -36,10 +36,12 @@ h2 {
 }
 
 .para {
-    background: #ececec;
     padding: 15px;
     text-align: center;
     line-height: 2;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: rgb(12, 12, 12);
 }
 
 .site-img {
@@ -51,14 +53,20 @@ h2 {
     margin: auto;
     width: 200px;
     text-align: center;
-    color: white;
-    background: blue;
+    color: black;
+    font-weight: bold;
+    background: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 18px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+.link-style:hover {
+text-decoration: underline;
+}
+
 .intro {
     text-align: center;
 }
@@ -123,9 +131,10 @@ h2 {
 .about-para {
     font-size: 15px;
     text-align: center;
-    background: rgb(58, 57, 57);
     padding: 10px;
     line-height: 2;
+    border: 1px solid white;
+    border-radius: 4px;
 }
 .about-section {
     padding: 100px 20px;
@@ -190,7 +199,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
@@ -203,21 +212,26 @@ nav a:hover {
     font-size: 17px;
     font-weight: bold;
     color: #bf4468;
+    font-family: var(--secondary-font);
 }
 
 footer {
-    background: #282323;
     line-height: 2.5;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: rgb(12, 12, 12);
 }
 
 .footer-h4 {
     font-size: 55px;
-    color: #bf4468
+    color: white;
+    font-family: var(--secondary-font);
 }
 
 .footer-p {
     font-size: 20px;
     font-family: var(--secondary-font);
+    color: white;
 }
 
 
@@ -232,19 +246,16 @@ footer {
 }
 
 .footer-email-link {
-    color: #bf4468;
+    color: white;
     text-decoration: none;
 }
 
 .footer-email-link:hover {
-    color: white;
+    color: #8dc6ff;
     text-decoration: underline;
 }
 
 .social-links a:hover {
-    color: #bf4468;
+    color: #8dc6ff;
 }
 
-li .active a {
-    color: white;
-}
