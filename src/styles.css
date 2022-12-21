@@ -41,7 +41,7 @@ h2 {
     padding: 15px;
     text-align: center;
     line-height: 2;
-    border: 1px solid white;
+    border: 1px solid rgb(158, 158, 158);
     border-radius: 4px;
     background: rgb(12, 12, 12);
 }
@@ -218,10 +218,11 @@ nav a:hover {
 }
 
 footer {
-    line-height: 2.5;
+    line-height: 1.5;
     border: 1px solid white;
     border-radius: 4px;
     background: rgb(12, 12, 12);
+    padding: 15px;
 }
 
 .footer-h4 {
