@@ -53,9 +53,8 @@ h2 {
     margin: auto;
     width: 200px;
     text-align: center;
-    color: black;
-    font-weight: bold;
-    background: white;
+    color: white;
+    background: #0D6EFD;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 15px;
@@ -65,6 +64,7 @@ h2 {
 
 .link-style:hover {
 text-decoration: underline;
+color: white;
 }
 
 .intro {
@@ -203,7 +203,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(66, 66, 240);
+    color: #0D6EFD;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -251,11 +251,11 @@ footer {
 }
 
 .footer-email-link:hover {
-    color: #8dc6ff;
+    color: #0D6EFD;
     text-decoration: underline;
 }
 
 .social-links a:hover {
-    color: #8dc6ff;
+    color: #0D6EFD;
 }
 
