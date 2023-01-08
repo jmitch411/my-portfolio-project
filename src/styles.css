@@ -2,29 +2,6 @@
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
     --gradient: linear-gradient(109.6deg, rgb(41, 125, 182) 3.6%, rgb(77, 58, 151) 51%, rgb(103, 55, 115) 92.9%);
-    --clr-neon: hsl(317 100% 54%);
-    --clr-bg: hsl(323 21% 16%);
-}
-
-.neon-button {
-    color: var(--clr-neon);
-    font-size: 20px;
-    display: block;
-    place-items: center;
-    text-align: center;
-    text-decoration: none;
-    border: var(--clr-neon) 4px solid;
-    border-radius: 4px;
-    width: 10%;
-    padding: 7px 0;
-    margin: auto;
-
-    text-shadow: 0 0 0.125em 
-    hsl(0 0% 100% / 0.3), 0 0 0.25em 
-    var(--clr-neon);
-
-    box-shadow: inset 0 0 1em 0 var(--clr-neon), 
-    0 0 1em 0 var(--clr-neon);
 }
 
 body {
@@ -75,7 +52,7 @@ h2 {
     line-height: 2;
     border: 1px solid rgb(158, 158, 158);
     border-radius: 4px;
-    background: rgb(12, 12, 12);
+   
 }
 
 .site-img {
@@ -88,17 +65,21 @@ h2 {
     width: 200px;
     text-align: center;
     color: white;
-    background: #0D6EFD;
+    background: hsl(317 100% 54%);
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 18px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .link-style:hover {
 text-decoration: underline;
-color: white;
+color: hsl(317 100% 54%);
+background: white;
+font-weight: bold;
+border: 2px solid hsl(317 100% 54%);
 }
 
 .intro {
@@ -255,15 +236,15 @@ nav a:hover {
 
 footer {
     line-height: 1.5;
-    border: 1px solid white;
+    border: 1px solid hsl(317 100% 54%);
     border-radius: 4px;
-    background: rgb(12, 12, 12);
+    background: white;
     padding: 15px;
 }
 
 .footer-h4 {
     font-size: 35px;
-    color: white;
+    color: hsl(317 100% 54%);
     font-family: var(--secondary-font);
     letter-spacing: 7px;
 }
@@ -271,13 +252,13 @@ footer {
 .footer-p {
     font-size: 15px;
     font-family: var(--secondary-font);
-    color: white;
+    color: hsl(317 100% 54%);
 }
 
 
 .social-links a {
     text-align: center;
-    color:white;
+    color:hsl(317 100% 54%);
     margin: 0 20px;
 }
 
@@ -286,12 +267,13 @@ footer {
 }
 
 .footer-email-link {
-    color: #0D6EFD;
+    color: blue;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .footer-email-link:hover {
-    color: white;
+    color: blue;
     text-decoration: underline;
 }
 
