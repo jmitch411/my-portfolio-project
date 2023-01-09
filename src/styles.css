@@ -70,7 +70,6 @@ h2 {
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 18px;
-    font-weight: bold;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -78,7 +77,6 @@ h2 {
 text-decoration: underline;
 color: hsl(317 100% 54%);
 background: white;
-font-weight: bold;
 border: 2px solid hsl(317 100% 54%);
 }
 
@@ -187,7 +185,9 @@ border: 2px solid hsl(317 100% 54%);
 
 .contact-phone:hover {
     cursor: default;
+    background: hsl(317 100% 54%);
     color: white;
+    text-decoration: none;
 }
 
 .contact-content {
